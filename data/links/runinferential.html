@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="en">
+    
+<head>
+    <meta charset="utf-8">
+    <title>Run inferential statistics</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body> 
+
+
+        <nav>
+            <ul>
+                <li><a href = "../../index.html">Home</a></li>
+                <li><a href = "../../placeholder.html">Topic</a></li>
+                <li><a href = "../../research/research.html">Research</a></li>
+                <li><a href = "../data.html">Data</a></li>
+                <li><a href = "../../placeholder.html">References</a></li>
+                <li><a href = "../../placeholder.html">Style</a></li>
+                <li><a href = "../../placeholder.html">Layout</a></li>
+                <li><a href = "../../placeholder.html">Modality</a></li>
+                <li><a href = "../../placeholder.html">Professionalization</a></li>
+            </ul>
+        </nav>
+
+
+<h1>Run inferential statistics</h1>
+<div class ="body">
+<p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.)</p>
+
+<div class = "bullets">
+    <ol>
+        <li>When PASW starts, it will prompt you for a data source. Select <strong>Open an existing data source &lt; More Files...</strong></li>
+        <li>Set the file type to Excel, then find and open the file.</li>
+        <li>From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset.</li>
+    </ol>
+</div>
+
+<p>The most commonly used statistical methods and tests are found under the <strong>Analyze</strong> menu in the standard toolbar.</p>
+
+<p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's <strong>Analyze</strong> menu, see if you can also find the following:</p>
+</div>
+
+<div class = "bullets">
+    <ol>
+        <li>Wilcoxon-Mann-Whitney test</li>
+        <li>Simple linear regression</li>
+        <li>Non-parametric correlation</li>
+    </ol>
+</div>
+
+<img src="../../images/datalesson_fig5.png" alt="Example of an excel sheet with descriptive statistics with non-numeric characters to show it will not run ">
+
+<div class = "p1">
+    <p><em>Figure 5: Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications.</em></p>
+</div>
+
+<div class = "body">
+<p>Use your prior knowledge or the <a href = "http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.htm"><em>Choosing the Correct Statistic</em></a> resource to determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types.</p>
+</div>
+
+<aside>
+    <p>Consult <a href = "http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.htm">UCLA's <em>Choosing the Correct Statistic</em></a> to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.</p>
+</aside>
+
+<div class = "body">
+<p>You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test. Go to <strong>Analyze &gt; Nonparametric Tests &gt; K Independent Samples</strong>... A new window will open prompting you to select the variables (by column name) to be tested.</p>
+</div>
+
+<div class = "listNextToBox">
+    <ol>
+        <li>Select the <em>perc_usefulness</em> variable from the scrollable list on the left, and click the top arrow to move it to the Test Variable List (i.e. dependent variable).</li>
+        <li>Select the <em>free_play</em> variable from the scrollable list, and click the bottom arrow to move it to the Grouping Variable section (i.e. independent variable).</li>
+        <li>Click <strong>Define Range</strong>..., and enter "0" in the Minimum field and "1" in the Maximum field. This specifies the two categorical variables to be tested. Your screen should now look like Figure 6. Click Continue.</li>
+    </ol>
+</div>
+
+<img src="../../images/datalesson_fig6.png" alt="Screenshot of selecting perc usefulness and free play in tests for several independent samples tab">
+
+<div class = "p1">
+    <p><em>Figure 6: For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected.</em></p>
+</div>
+
+<div class = "body">
+<p>Click OK to display the statistical analysis results to new viewing window. Your results screen should look like Figure 7. Because statistical analysis output contains many numerical components (some of which must be cited in formal reports), it is a good idea to save it to a format independent of the PASW software. To save the results, go to <strong>File &lt; Export</strong>. Change Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
+</div>
+
+<img src="../../images/datalesson_fig7.png" alt="Example document after exporting the file with changes in figure 6.">
+
+<div class = "p1">
+    <p><em>Figure 7: PASW allows users to export statistics to common document types.</em></p>
+</div>
+
+<div class = "body">
+<h2>Test your knowledge</h2>
+<p>Now that you've finished the lesson, please complete a short quiz to test your understanding of formatting research datasets for comprehensive statistical analysis.</p>
+
+</div>
+
+
+
+<div class ="prevnext" >
+    <p><a href = "rundescriptive.html">Previous page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "../data.html">Next page</a></p>
+</div>
+
+</body>
+</html>
